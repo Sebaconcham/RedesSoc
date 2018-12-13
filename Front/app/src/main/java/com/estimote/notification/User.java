@@ -14,12 +14,6 @@ public class User {
     @SerializedName("nombre")
     @Expose
     private String nombre;
-    @SerializedName("createdAt")
-    @Expose
-    private String createdAt;
-    @SerializedName("updatedAt")
-    @Expose
-    private String updatedAt;
 
     public Integer getId() {
         return id;
@@ -33,10 +27,6 @@ public class User {
         return idAndroid;
     }
 
-    public void setIdAndroid(String idAndroid) {
-        this.idAndroid = idAndroid;
-    }
-
     public String getNombre() {
         return nombre;
     }
@@ -45,19 +35,4 @@ public class User {
         this.nombre = nombre;
     }
 
-    public String getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(String createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    public String getUpdatedAt() {
-        return updatedAt;
-    }
-
-    public void setUpdatedAt(String updatedAt) {
-        this.updatedAt = updatedAt;
-    }
 }

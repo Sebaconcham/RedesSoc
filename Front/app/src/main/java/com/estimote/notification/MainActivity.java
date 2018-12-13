@@ -202,9 +202,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onFailure(Call<User> call, Throwable t) {
                 if(call.isCanceled()) {
-                    Log.e("chao", "request was aborted");
+                    Log.e("Desconectado", "request was aborted");
                 }else {
-                    Log.e("chao", "Unable to submit post to API.");
+                    Log.e("Desconectado", "Unable to submit post to API.");
                 }
             }
         });
@@ -226,9 +226,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onFailure(Call<User> call, Throwable t) {
                 if(call.isCanceled()) {
-                    Log.e("chao", "request was aborted");
+                    Log.e("Desconectado", "request was aborted");
                 }else {
-                    Log.e("chao", "Unable to submit post to API.");
+                    Log.e("Desconectado", "Unable to submit post to API.");
                 }
             }
         });
